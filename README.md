@@ -13,8 +13,13 @@ Properly running this code requires use of the "Run Section" option in MATLAB as
 
 We suggest starting with "getfigures.m," which tells you exactly which sections (SECS.) of the workhorse script, comptonfastfit.m, need to be run to produce each figure in the paper.
 
-Sections 1-4 of comptonfastfit.m are ultimately the heart of Compton FastFit.
-  Section 1: Load LCS X-ray spectral data
-  Section 2: Convert the data into polynomial matrices
-  Section 3: Create an interpolation map
-  Section 4: Produce an interpolated LCS X-ray spectrum at a new energy
+Sections 1-4 of comptonfastfit.m are ultimately the heart of Compton FastFit <br>
+
+Section 1: Load LCS X-ray spectral data <br>
+Section 2: Convert the data into polynomial matrices <br>
+Section 3: Create an interpolation map <br>
+Section 4: Produce an interpolated LCS X-ray spectrum at a new energy <br>
+
+## Data
+
+This code is intended to be run with data that was generated using laser-Compton scattering simulation software and can be found here with instructions on which directories to store the data: https://doi.org/10.6084/m9.figshare.19083344.v1
