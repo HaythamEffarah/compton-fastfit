@@ -7,7 +7,7 @@ This repository includes code that takes csv-formatted data of the scattering an
 All code is written using MATLAB R2021a and is intended to be used in the MATLAB GUI.
 
 ## How to use
-Properly running this code requires use of the "Run Section" option in MATLAB as well as workspace variables.
+Properly running this code requires use of the "Run Section" option in MATLAB as well as workspace variables. All enclosed folders must be included in your MATLAB path.
 
 We suggest starting with "getfigures.m," which tells you exactly which sections (SECS.) of the workhorse script, comptonfastfit.m, need to be run to produce each figure in the paper.
 
